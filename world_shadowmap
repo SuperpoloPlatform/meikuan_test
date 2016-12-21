@@ -1,0 +1,6126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<world>
+  <plugins>
+    <plugin name='genmesh'>crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name='genmeshfact'>crystalspace.mesh.loader.factory.genmesh</plugin>
+  </plugins>
+  <shaders>
+    <shader>
+      <file>/shader/light_bumpmap.xml</file>
+    </shader>
+  </shaders>
+  <textures>
+    <texture name='G360028.PNG'>
+      <file>textures/G360028.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN360028.PNG'>
+      <file>textures/N360028.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='SWT011.PNG'>
+      <file>textures/SWT011.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPNSWT011.PNG'>
+      <file>textures/NSWT011.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G350031.PNG'>
+      <file>textures/G350031.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN350031.PNG'>
+      <file>textures/N350031.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='SWT007.PNG'>
+      <file>textures/SWT007.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPNSWT007.PNG'>
+      <file>textures/NSWT007.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='JT001.PNG'>
+      <file>textures/JT001.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPNJT001.PNG'>
+      <file>textures/NJT001.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='CST06.PNG'>
+      <file>textures/CST06.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPNCST06.PNG'>
+      <file>textures/NCST06.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G350032.PNG'>
+      <file>textures/G350032.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN350032.PNG'>
+      <file>textures/N350032.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='TRAY408.PNG'>
+      <file>textures/TRAY408.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPNTRAY408.PNG'>
+      <file>textures/NTRAY408.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='SWT019.PNG'>
+      <file>textures/SWT019.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPNSWT019.PNG'>
+      <file>textures/NSWT019.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36T0027.JPG'>
+      <file>textures/G36T0027.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN36T0027.JPG'>
+      <file>textures/N36T0027.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G330031.PNG'>
+      <file>textures/G330031.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN330031.PNG'>
+      <file>textures/N330031.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='CST13.PNG'>
+      <file>textures/CST13.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPNCST13.PNG'>
+      <file>textures/NCST13.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='CST11.PNG'>
+      <file>textures/CST11.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPNCST11.PNG'>
+      <file>textures/NCST11.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='290226.PNG'>
+      <file>textures/290226.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN290226.PNG'>
+      <file>textures/N290226.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='168LY.PNG'>
+      <file>textures/168LY.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN168LY.PNG'>
+      <file>textures/N168LY.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='290227.PNG'>
+      <file>textures/290227.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN290227.PNG'>
+      <file>textures/N290227.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='XX155LY.JPG'>
+      <file>textures/XX155LY.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPNX155LY.JPG'>
+      <file>textures/NX155LY.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='290228.PNG'>
+      <file>textures/290228.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN290228.PNG'>
+      <file>textures/N290228.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G360026.PNG'>
+      <file>textures/G360026.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN360026.PNG'>
+      <file>textures/N360026.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36025.PNG'>
+      <file>textures/G36025.PNG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN36025.PNG'>
+      <file>textures/N36025.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='32290232.JPG'>
+      <file>textures/32290232.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN2290232.JPG'>
+      <file>textures/N2290232.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229013.PNG'>
+      <file>textures/G3229013.PNG</file>
+    </texture>
+    <texture name='BUMPN3229013.JPG'>
+      <file>textures/N3229013.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0811.JPG'>
+      <file>textures/G32K0811.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0811.JPG'>
+      <file>textures/N32K0811.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0812.JPG'>
+      <file>textures/G32K0812.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0812.JPG'>
+      <file>textures/N32K0812.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0813.JPG'>
+      <file>textures/G32K0813.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0813.JPG'>
+      <file>textures/N32K0813.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229022.JPG'>
+      <file>textures/G3229022.JPG</file>
+    </texture>
+    <texture name='BUMPN3229022.JPG'>
+      <file>textures/N3229022.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3014.JPG'>
+      <file>textures/G32J3014.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3014.JPG'>
+      <file>textures/N32J3014.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3002.JPG'>
+      <file>textures/G32J3002.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3002.JPG'>
+      <file>textures/N32J3002.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0101.JPG'>
+      <file>textures/G32K0101.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0101.JPG'>
+      <file>textures/N32K0101.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3004.JPG'>
+      <file>textures/G32J3004.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3004.JPG'>
+      <file>textures/N32J3004.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0804.JPG'>
+      <file>textures/G32K0804.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0804.JPG'>
+      <file>textures/N32K0804.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0805.JPG'>
+      <file>textures/G32K0805.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0805.JPG'>
+      <file>textures/N32K0805.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0806.JPG'>
+      <file>textures/G32K0806.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0806.JPG'>
+      <file>textures/N32K0806.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0807.JPG'>
+      <file>textures/G32K0807.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0807.JPG'>
+      <file>textures/N32K0807.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310415.JPG'>
+      <file>textures/G310415.JPG</file>
+    </texture>
+    <texture name='BUMPN310415.JPG'>
+      <file>textures/N310415.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0802.JPG'>
+      <file>textures/G32K0802.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0802.JPG'>
+      <file>textures/N32K0802.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0803.JPG'>
+      <file>textures/G32K0803.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0803.JPG'>
+      <file>textures/N32K0803.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3017.JPG'>
+      <file>textures/G32J3017.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3017.JPG'>
+      <file>textures/N32J3017.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0809.PNG'>
+      <file>textures/G32K0809.PNG</file>
+    </texture>
+    <texture name='BUMPN32K0809.PNG'>
+      <file>textures/N32K0809.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3015.JPG'>
+      <file>textures/G32J3015.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3015.JPG'>
+      <file>textures/N32J3015.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0801.JPG'>
+      <file>textures/G32K0801.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0801.JPG'>
+      <file>textures/N32K0801.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0404.JPG'>
+      <file>textures/G32K0404.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0404.JPG'>
+      <file>textures/N32K0404.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3005.JPG'>
+      <file>textures/G32J3005.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3005.JPG'>
+      <file>textures/N32J3005.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3007.JPG'>
+      <file>textures/G32J3007.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3007.JPG'>
+      <file>textures/N32J3007.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3022.PNG'>
+      <file>textures/G32J3022.PNG</file>
+    </texture>
+    <texture name='BUMPN32J3022.PNG'>
+      <file>textures/N32J3022.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0808.PNG'>
+      <file>textures/G32K0808.PNG</file>
+    </texture>
+    <texture name='BUMPN32K0808.PNG'>
+      <file>textures/N32K0808.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3001.JPG'>
+      <file>textures/G32J3001.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3001.JPG'>
+      <file>textures/N32J3001.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310803.JPG'>
+      <file>textures/G310803.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN310803.JPG'>
+      <file>textures/N310803.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310802.JPG'>
+      <file>textures/G310802.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN310802.JPG'>
+      <file>textures/N310802.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310801.JPG'>
+      <file>textures/G310801.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN310801.JPG'>
+      <file>textures/N310801.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0813.PNG'>
+      <file>textures/G32K0813.PNG</file>
+    </texture>
+    <texture name='BUMPN32K0813.PNG'>
+      <file>textures/N32K0813.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0306.JPG'>
+      <file>textures/G32K0306.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0306.JPG'>
+      <file>textures/N32K0306.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310805.JPG'>
+      <file>textures/G310805.JPG</file>
+    </texture>
+    <texture name='BUMPN310805.JPG'>
+      <file>textures/N310805.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0810.PNG'>
+      <file>textures/G32K0810.PNG</file>
+    </texture>
+    <texture name='BUMPN32K0810.PNG'>
+      <file>textures/N32K0810.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J2902.JPG'>
+      <file>textures/G32J2902.JPG</file>
+    </texture>
+    <texture name='BUMPN32J2902.JPG'>
+      <file>textures/N32J2902.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J2903.JPG'>
+      <file>textures/G32J2903.JPG</file>
+    </texture>
+    <texture name='BUMPN32J2903.JPG'>
+      <file>textures/N32J2903.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J2901.JPG'>
+      <file>textures/G32J2901.JPG</file>
+    </texture>
+    <texture name='BUMPN32J2901.JPG'>
+      <file>textures/N32J2901.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J2906.JPG'>
+      <file>textures/G32J2906.JPG</file>
+    </texture>
+    <texture name='BUMPN32J2906.JPG'>
+      <file>textures/N32J2906.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J2907.JPG'>
+      <file>textures/G32J2907.JPG</file>
+    </texture>
+    <texture name='BUMPN32J2907.JPG'>
+      <file>textures/N32J2907.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J2904.JPG'>
+      <file>textures/G32J2904.JPG</file>
+    </texture>
+    <texture name='BUMPN32J2904.JPG'>
+      <file>textures/N32J2904.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J2905.JPG'>
+      <file>textures/G32J2905.JPG</file>
+    </texture>
+    <texture name='BUMPN32J2905.JPG'>
+      <file>textures/N32J2905.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J2908.PNG'>
+      <file>textures/G32J2908.PNG</file>
+    </texture>
+    <texture name='BUMPN32J2908.PNG'>
+      <file>textures/N32J2908.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J2909.JPG'>
+      <file>textures/G32J2909.JPG</file>
+    </texture>
+    <texture name='BUMPN32J2909.JPG'>
+      <file>textures/N32J2909.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290253.JPG'>
+      <file>textures/G3290253.JPG</file>
+    </texture>
+    <texture name='BUMPN3290253.JPG'>
+      <file>textures/N3290253.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3021.JPG'>
+      <file>textures/G32J3021.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3021.JPG'>
+      <file>textures/N32J3021.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229020.JPG'>
+      <file>textures/G3229020.JPG</file>
+    </texture>
+    <texture name='BUMPN3229020.JPG'>
+      <file>textures/N3229020.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229021.JPG'>
+      <file>textures/G3229021.JPG</file>
+    </texture>
+    <texture name='BUMPN3229021.JPG'>
+      <file>textures/N3229021.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229014.JPG'>
+      <file>textures/G3229014.JPG</file>
+    </texture>
+    <texture name='BUMPN3229014.JPG'>
+      <file>textures/N3229014.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229023.JPG'>
+      <file>textures/G3229023.JPG</file>
+    </texture>
+    <texture name='BUMPN3229023.JPG'>
+      <file>textures/N3229023.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229025.JPG'>
+      <file>textures/G3229025.JPG</file>
+    </texture>
+    <texture name='BUMPN3229025.JPG'>
+      <file>textures/N3229025.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229017.JPG'>
+      <file>textures/G3229017.JPG</file>
+    </texture>
+    <texture name='BUMPN3229017.JPG'>
+      <file>textures/N3229017.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290241.JPG'>
+      <file>textures/G3290241.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN3290241.JPG'>
+      <file>textures/N3290241.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290242.JPG'>
+      <file>textures/G3290242.JPG</file>
+    </texture>
+    <texture name='BUMPN3290242.JPG'>
+      <file>textures/N3290242.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290243.JPG'>
+      <file>textures/G3290243.JPG</file>
+    </texture>
+    <texture name='BUMPN3290243.JPG'>
+      <file>textures/N3290243.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290244.JPG'>
+      <file>textures/G3290244.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN3290244.JPG'>
+      <file>textures/N3290244.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290245.JPG'>
+      <file>textures/G3290245.JPG</file>
+    </texture>
+    <texture name='BUMPN3290245.JPG'>
+      <file>textures/N3290245.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229016.JPG'>
+      <file>textures/G3229016.JPG</file>
+    </texture>
+    <texture name='BUMPN3229016.JPG'>
+      <file>textures/N3229016.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290247.JPG'>
+      <file>textures/G3290247.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN3290247.JPG'>
+      <file>textures/N3290247.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290248.JPG'>
+      <file>textures/G3290248.JPG</file>
+    </texture>
+    <texture name='BUMPN3290248.JPG'>
+      <file>textures/N3290248.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290249.JPG'>
+      <file>textures/G3290249.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN3290249.JPG'>
+      <file>textures/N3290249.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290246.JPG'>
+      <file>textures/G3290246.JPG</file>
+    </texture>
+    <texture name='BUMPN3290246.JPG'>
+      <file>textures/N3290246.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290240.JPG'>
+      <file>textures/G3290240.JPG</file>
+    </texture>
+    <texture name='BUMPN3290240.JPG'>
+      <file>textures/N3290240.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290254.JPG'>
+      <file>textures/G3290254.JPG</file>
+    </texture>
+    <texture name='BUMPN3290254.JPG'>
+      <file>textures/N3290254.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290239.JPG'>
+      <file>textures/G3290239.JPG</file>
+    </texture>
+    <texture name='BUMPN3290239.JPG'>
+      <file>textures/N3290239.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290238.JPG'>
+      <file>textures/G3290238.JPG</file>
+    </texture>
+    <texture name='BUMPN3290238.JPG'>
+      <file>textures/N3290238.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290231.JPG'>
+      <file>textures/G3290231.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN3290231.JPG'>
+      <file>textures/N3290231.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290233.JPG'>
+      <file>textures/G3290233.JPG</file>
+    </texture>
+    <texture name='BUMPN3290233.JPG'>
+      <file>textures/N3290233.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290235.JPG'>
+      <file>textures/G3290235.JPG</file>
+    </texture>
+    <texture name='BUMPN3290235.JPG'>
+      <file>textures/N3290235.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290234.JPG'>
+      <file>textures/G3290234.JPG</file>
+    </texture>
+    <texture name='BUMPN3290234.JPG'>
+      <file>textures/N3290234.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290237.JPG'>
+      <file>textures/G3290237.JPG</file>
+    </texture>
+    <texture name='BUMPN3290237.JPG'>
+      <file>textures/N3290237.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290236.JPG'>
+      <file>textures/G3290236.JPG</file>
+    </texture>
+    <texture name='BUMPN3290236.JPG'>
+      <file>textures/N3290236.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229015.JPG'>
+      <file>textures/G3229015.JPG</file>
+    </texture>
+    <texture name='BUMPN3229015.JPG'>
+      <file>textures/N3229015.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290252.JPG'>
+      <file>textures/G3290252.JPG</file>
+    </texture>
+    <texture name='BUMPN3290252.JPG'>
+      <file>textures/N3290252.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290251.JPG'>
+      <file>textures/G3290251.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN3290251.JPG'>
+      <file>textures/N3290251.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3290250.JPG'>
+      <file>textures/G3290250.JPG</file>
+    </texture>
+    <texture name='BUMPN3290250.JPG'>
+      <file>textures/N3290250.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229011.JPG'>
+      <file>textures/G3229011.JPG</file>
+    </texture>
+    <texture name='BUMPN3229011.JPG'>
+      <file>textures/N3229011.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229010.JPG'>
+      <file>textures/G3229010.JPG</file>
+    </texture>
+    <texture name='BUMPN3229010.JPG'>
+      <file>textures/N3229010.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229012.JPG'>
+      <file>textures/G3229012.JPG</file>
+    </texture>
+    <texture name='BUMPN3229012.JPG'>
+      <file>textures/N3229012.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3229019.JPG'>
+      <file>textures/G3229019.JPG</file>
+    </texture>
+    <texture name='BUMPN3229019.JPG'>
+      <file>textures/N3229019.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313025.JPG'>
+      <file>textures/G313025.JPG</file>
+    </texture>
+    <texture name='BUMPN313025.JPG'>
+      <file>textures/N313025.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313019.JPG'>
+      <file>textures/G313019.JPG</file>
+    </texture>
+    <texture name='BUMPN313019.JPG'>
+      <file>textures/N313019.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313018.JPG'>
+      <file>textures/G313018.JPG</file>
+    </texture>
+    <texture name='BUMPN313018.JPG'>
+      <file>textures/N313018.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313011.JPG'>
+      <file>textures/G313011.JPG</file>
+    </texture>
+    <texture name='BUMPN313011.JPG'>
+      <file>textures/N313011.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313010.JPG'>
+      <file>textures/G313010.JPG</file>
+    </texture>
+    <texture name='BUMPN313010.JPG'>
+      <file>textures/N313010.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313012.JPG'>
+      <file>textures/G313012.JPG</file>
+    </texture>
+    <texture name='BUMPN313012.JPG'>
+      <file>textures/N313012.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313015.JPG'>
+      <file>textures/G313015.JPG</file>
+    </texture>
+    <texture name='BUMPN313015.JPG'>
+      <file>textures/N313015.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313014.JPG'>
+      <file>textures/G313014.JPG</file>
+    </texture>
+    <texture name='BUMPN313014.JPG'>
+      <file>textures/N313014.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313017.JPG'>
+      <file>textures/G313017.JPG</file>
+    </texture>
+    <texture name='BUMPN313017.JPG'>
+      <file>textures/N313017.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G31J3027.PNG'>
+      <file>textures/G31J3027.PNG</file>
+    </texture>
+    <texture name='BUMPN31J3027.PNG'>
+      <file>textures/N31J3027.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313021.JPG'>
+      <file>textures/G313021.JPG</file>
+    </texture>
+    <texture name='BUMPN313021.JPG'>
+      <file>textures/N313021.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313020.JPG'>
+      <file>textures/G313020.JPG</file>
+    </texture>
+    <texture name='BUMPN313020.JPG'>
+      <file>textures/N313020.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313007.JPG'>
+      <file>textures/G313007.JPG</file>
+    </texture>
+    <texture name='BUMPN313007.JPG'>
+      <file>textures/N313007.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313022.JPG'>
+      <file>textures/G313022.JPG</file>
+    </texture>
+    <texture name='BUMPN313022.JPG'>
+      <file>textures/N313022.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313023.JPG'>
+      <file>textures/G313023.JPG</file>
+    </texture>
+    <texture name='BUMPN313023.JPG'>
+      <file>textures/N313023.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313002.JPG'>
+      <file>textures/G313002.JPG</file>
+    </texture>
+    <texture name='BUMPN313002.JPG'>
+      <file>textures/N313002.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313003.JPG'>
+      <file>textures/G313003.JPG</file>
+    </texture>
+    <texture name='BUMPN313003.JPG'>
+      <file>textures/N313003.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313001.JPG'>
+      <file>textures/G313001.JPG</file>
+    </texture>
+    <texture name='BUMPN313001.JPG'>
+      <file>textures/N313001.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313008.JPG'>
+      <file>textures/G313008.JPG</file>
+    </texture>
+    <texture name='BUMPN313008.JPG'>
+      <file>textures/N313008.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313009.JPG'>
+      <file>textures/G313009.JPG</file>
+    </texture>
+    <texture name='BUMPN313009.JPG'>
+      <file>textures/N313009.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313006.JPG'>
+      <file>textures/G313006.JPG</file>
+    </texture>
+    <texture name='BUMPN313006.JPG'>
+      <file>textures/N313006.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT003.JPG'>
+      <file>textures/G36TT003.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT003.JPG'>
+      <file>textures/N36TT003.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313004.JPG'>
+      <file>textures/G313004.JPG</file>
+    </texture>
+    <texture name='BUMPN313004.JPG'>
+      <file>textures/N313004.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313024.JPG'>
+      <file>textures/G313024.JPG</file>
+    </texture>
+    <texture name='BUMPN313024.JPG'>
+      <file>textures/N313024.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0408.PNG'>
+      <file>textures/G32K0408.PNG</file>
+    </texture>
+    <texture name='BUMPN32K0408.PNG'>
+      <file>textures/N32K0408.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0401.PNG'>
+      <file>textures/G32K0401.PNG</file>
+    </texture>
+    <texture name='BUMPN32K0401.PNG'>
+      <file>textures/N32K0401.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0406.PNG'>
+      <file>textures/G32K0406.PNG</file>
+    </texture>
+    <texture name='BUMPN32K0406.PNG'>
+      <file>textures/N32K0406.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0407.JPG'>
+      <file>textures/G32K0407.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0407.JPG'>
+      <file>textures/N32K0407.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0405.JPG'>
+      <file>textures/G32K0405.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0405.JPG'>
+      <file>textures/N32K0405.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0308.JPG'>
+      <file>textures/G32K0308.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0308.JPG'>
+      <file>textures/N32K0308.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3016.JPG'>
+      <file>textures/G32J3016.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3016.JPG'>
+      <file>textures/N32J3016.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32J3003.JPG'>
+      <file>textures/G32J3003.JPG</file>
+    </texture>
+    <texture name='BUMPN32J3003.JPG'>
+      <file>textures/N32J3003.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0107.JPG'>
+      <file>textures/G32K0107.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0107.JPG'>
+      <file>textures/N32K0107.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G32K0106.JPG'>
+      <file>textures/G32K0106.JPG</file>
+    </texture>
+    <texture name='BUMPN32K0106.JPG'>
+      <file>textures/N32K0106.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G3231013.JPG'>
+      <file>textures/G3231013.JPG</file>
+    </texture>
+    <texture name='BUMPN3231013.JPG'>
+      <file>textures/N3231013.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313138.JPG'>
+      <file>textures/G313138.JPG</file>
+    </texture>
+    <texture name='BUMPN313138.JPG'>
+      <file>textures/N313138.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G31J3110.PNG'>
+      <file>textures/G31J3110.PNG</file>
+    </texture>
+    <texture name='BUMPN31J3110.PNG'>
+      <file>textures/N31J3110.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313117.JPG'>
+      <file>textures/G313117.JPG</file>
+    </texture>
+    <texture name='BUMPN313117.JPG'>
+      <file>textures/N313117.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G31J3119.PNG'>
+      <file>textures/G31J3119.PNG</file>
+    </texture>
+    <texture name='BUMPN31J3119.PNG'>
+      <file>textures/N31J3119.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313129.JPG'>
+      <file>textures/G313129.JPG</file>
+    </texture>
+    <texture name='BUMPN313129.JPG'>
+      <file>textures/N313129.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313128.JPG'>
+      <file>textures/G313128.JPG</file>
+    </texture>
+    <texture name='BUMPN313128.JPG'>
+      <file>textures/N313128.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313132.JPG'>
+      <file>textures/G313132.JPG</file>
+    </texture>
+    <texture name='BUMPN313132.JPG'>
+      <file>textures/N313132.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313133.JPG'>
+      <file>textures/G313133.JPG</file>
+    </texture>
+    <texture name='BUMPN313133.JPG'>
+      <file>textures/N313133.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313130.JPG'>
+      <file>textures/G313130.JPG</file>
+    </texture>
+    <texture name='BUMPN313130.JPG'>
+      <file>textures/N313130.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313131.JPG'>
+      <file>textures/G313131.JPG</file>
+    </texture>
+    <texture name='BUMPN313131.JPG'>
+      <file>textures/N313131.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313118.JPG'>
+      <file>textures/G313118.JPG</file>
+    </texture>
+    <texture name='BUMPN313118.JPG'>
+      <file>textures/N313118.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313134.JPG'>
+      <file>textures/G313134.JPG</file>
+    </texture>
+    <texture name='BUMPN313134.JPG'>
+      <file>textures/N313134.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313135.JPG'>
+      <file>textures/G313135.JPG</file>
+    </texture>
+    <texture name='BUMPN313135.JPG'>
+      <file>textures/N313135.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313115.JPG'>
+      <file>textures/G313115.JPG</file>
+    </texture>
+    <texture name='BUMPN313115.JPG'>
+      <file>textures/N313115.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313116.JPG'>
+      <file>textures/G313116.JPG</file>
+    </texture>
+    <texture name='BUMPN313116.JPG'>
+      <file>textures/N313116.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313139.JPG'>
+      <file>textures/G313139.JPG</file>
+    </texture>
+    <texture name='BUMPN313139.JPG'>
+      <file>textures/N313139.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313111.JPG'>
+      <file>textures/G313111.JPG</file>
+    </texture>
+    <texture name='BUMPN313111.JPG'>
+      <file>textures/N313111.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313112.JPG'>
+      <file>textures/G313112.JPG</file>
+    </texture>
+    <texture name='BUMPN313112.JPG'>
+      <file>textures/N313112.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313113.JPG'>
+      <file>textures/G313113.JPG</file>
+    </texture>
+    <texture name='BUMPN313113.JPG'>
+      <file>textures/N313113.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G31J3140.PNG'>
+      <file>textures/G31J3140.PNG</file>
+    </texture>
+    <texture name='BUMPN31J3140.PNG'>
+      <file>textures/N31J3140.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G31J3107.PNG'>
+      <file>textures/G31J3107.PNG</file>
+    </texture>
+    <texture name='BUMPN31J3107.PNG'>
+      <file>textures/N31J3107.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G31J3108.PNG'>
+      <file>textures/G31J3108.PNG</file>
+    </texture>
+    <texture name='BUMPN31J3108.PNG'>
+      <file>textures/N31J3108.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G31J3109.PNG'>
+      <file>textures/G31J3109.PNG</file>
+    </texture>
+    <texture name='BUMPN31J3109.PNG'>
+      <file>textures/N31J3109.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G31J3120.PNG'>
+      <file>textures/G31J3120.PNG</file>
+    </texture>
+    <texture name='BUMPN31J3120.PNG'>
+      <file>textures/N31J3120.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313136.JPG'>
+      <file>textures/G313136.JPG</file>
+    </texture>
+    <texture name='BUMPN313136.JPG'>
+      <file>textures/N313136.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313125.JPG'>
+      <file>textures/G313125.JPG</file>
+    </texture>
+    <texture name='BUMPN313125.JPG'>
+      <file>textures/N313125.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313124.JPG'>
+      <file>textures/G313124.JPG</file>
+    </texture>
+    <texture name='BUMPN313124.JPG'>
+      <file>textures/N313124.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313127.JPG'>
+      <file>textures/G313127.JPG</file>
+    </texture>
+    <texture name='BUMPN313127.JPG'>
+      <file>textures/N313127.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313126.JPG'>
+      <file>textures/G313126.JPG</file>
+    </texture>
+    <texture name='BUMPN313126.JPG'>
+      <file>textures/N313126.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313121.JPG'>
+      <file>textures/G313121.JPG</file>
+    </texture>
+    <texture name='BUMPN313121.JPG'>
+      <file>textures/N313121.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313123.JPG'>
+      <file>textures/G313123.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN313123.JPG'>
+      <file>textures/N313123.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313122.JPG'>
+      <file>textures/G313122.JPG</file>
+    </texture>
+    <texture name='BUMPN313122.JPG'>
+      <file>textures/N313122.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313106.JPG'>
+      <file>textures/G313106.JPG</file>
+    </texture>
+    <texture name='BUMPN313106.JPG'>
+      <file>textures/N313106.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313105.JPG'>
+      <file>textures/G313105.JPG</file>
+    </texture>
+    <texture name='BUMPN313105.JPG'>
+      <file>textures/N313105.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313104.JPG'>
+      <file>textures/G313104.JPG</file>
+    </texture>
+    <texture name='BUMPN313104.JPG'>
+      <file>textures/N313104.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313103.JPG'>
+      <file>textures/G313103.JPG</file>
+    </texture>
+    <texture name='BUMPN313103.JPG'>
+      <file>textures/N313103.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313102.JPG'>
+      <file>textures/G313102.JPG</file>
+    </texture>
+    <texture name='BUMPN313102.JPG'>
+      <file>textures/N313102.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G313101.JPG'>
+      <file>textures/G313101.JPG</file>
+    </texture>
+    <texture name='BUMPN313101.JPG'>
+      <file>textures/N313101.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310429.JPG'>
+      <file>textures/G310429.JPG</file>
+    </texture>
+    <texture name='BUMPN310429.JPG'>
+      <file>textures/N310429.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310402.JPG'>
+      <file>textures/G310402.JPG</file>
+    </texture>
+    <texture name='BUMPN310402.JPG'>
+      <file>textures/N310402.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310409.JPG'>
+      <file>textures/G310409.JPG</file>
+    </texture>
+    <texture name='BUMPN310409.JPG'>
+      <file>textures/N310409.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310425.JPG'>
+      <file>textures/G310425.JPG</file>
+    </texture>
+    <texture name='BUMPN310425.JPG'>
+      <file>textures/N310425.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310424.JPG'>
+      <file>textures/G310424.JPG</file>
+    </texture>
+    <texture name='BUMPN310424.JPG'>
+      <file>textures/N310424.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310427.JPG'>
+      <file>textures/G310427.JPG</file>
+    </texture>
+    <texture name='BUMPN310427.JPG'>
+      <file>textures/N310427.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310426.JPG'>
+      <file>textures/G310426.JPG</file>
+    </texture>
+    <texture name='BUMPN310426.JPG'>
+      <file>textures/N310426.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310421.JPG'>
+      <file>textures/G310421.JPG</file>
+    </texture>
+    <texture name='BUMPN310421.JPG'>
+      <file>textures/N310421.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310420.JPG'>
+      <file>textures/G310420.JPG</file>
+    </texture>
+    <texture name='BUMPN310420.JPG'>
+      <file>textures/N310420.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310423.JPG'>
+      <file>textures/G310423.JPG</file>
+    </texture>
+    <texture name='BUMPN310423.JPG'>
+      <file>textures/N310423.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310408.JPG'>
+      <file>textures/G310408.JPG</file>
+    </texture>
+    <texture name='BUMPN310408.JPG'>
+      <file>textures/N310408.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310407.JPG'>
+      <file>textures/G310407.JPG</file>
+    </texture>
+    <texture name='BUMPN310407.JPG'>
+      <file>textures/N310407.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310406.JPG'>
+      <file>textures/G310406.JPG</file>
+    </texture>
+    <texture name='BUMPN310406.JPG'>
+      <file>textures/N310406.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310405.JPG'>
+      <file>textures/G310405.JPG</file>
+    </texture>
+    <texture name='BUMPN310405.JPG'>
+      <file>textures/N310405.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310404.JPG'>
+      <file>textures/G310404.JPG</file>
+    </texture>
+    <texture name='BUMPN310404.JPG'>
+      <file>textures/N310404.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310403.JPG'>
+      <file>textures/G310403.JPG</file>
+    </texture>
+    <texture name='BUMPN310403.JPG'>
+      <file>textures/N310403.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310428.JPG'>
+      <file>textures/G310428.JPG</file>
+    </texture>
+    <texture name='BUMPN310428.JPG'>
+      <file>textures/N310428.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310401.JPG'>
+      <file>textures/G310401.JPG</file>
+    </texture>
+    <texture name='BUMPN310401.JPG'>
+      <file>textures/N310401.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310717.JPG'>
+      <file>textures/G310717.JPG</file>
+    </texture>
+    <texture name='BUMPN310717.JPG'>
+      <file>textures/N310717.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G31K0434.PNG'>
+      <file>textures/G31K0434.PNG</file>
+    </texture>
+    <texture name='BUMPN31K0434.PNG'>
+      <file>textures/N31K0434.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310433.JPG'>
+      <file>textures/G310433.JPG</file>
+    </texture>
+    <texture name='BUMPN310433.JPG'>
+      <file>textures/N310433.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310430.JPG'>
+      <file>textures/G310430.JPG</file>
+    </texture>
+    <texture name='BUMPN310430.JPG'>
+      <file>textures/N310430.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310431.JPG'>
+      <file>textures/G310431.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN310431.JPG'>
+      <file>textures/N310431.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310418.JPG'>
+      <file>textures/G310418.JPG</file>
+    </texture>
+    <texture name='BUMPN310418.JPG'>
+      <file>textures/N310418.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310419.JPG'>
+      <file>textures/G310419.JPG</file>
+    </texture>
+    <texture name='BUMPN310419.JPG'>
+      <file>textures/N310419.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310422.JPG'>
+      <file>textures/G310422.JPG</file>
+    </texture>
+    <texture name='BUMPN310422.JPG'>
+      <file>textures/N310422.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310414.JPG'>
+      <file>textures/G310414.JPG</file>
+    </texture>
+    <texture name='BUMPN310414.JPG'>
+      <file>textures/N310414.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310416.JPG'>
+      <file>textures/G310416.JPG</file>
+    </texture>
+    <texture name='BUMPN310416.JPG'>
+      <file>textures/N310416.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310417.JPG'>
+      <file>textures/G310417.JPG</file>
+    </texture>
+    <texture name='BUMPN310417.JPG'>
+      <file>textures/N310417.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310411.JPG'>
+      <file>textures/G310411.JPG</file>
+    </texture>
+    <texture name='BUMPN310411.JPG'>
+      <file>textures/N310411.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310412.JPG'>
+      <file>textures/G310412.JPG</file>
+    </texture>
+    <texture name='BUMPN310412.JPG'>
+      <file>textures/N310412.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G310413.JPG'>
+      <file>textures/G310413.JPG</file>
+    </texture>
+    <texture name='BUMPN310413.JPG'>
+      <file>textures/N310413.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='BUMPN3229013.PNG'>
+      <file>textures/N3229013.PNG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='WW_CC00.JPG'>
+      <file>textures/WW_CC00.JPG</file>
+    </texture>
+    <texture name='BUMPNW_CC00.JPG'>
+      <file>textures/NW_CC00.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36T0025.JPG'>
+      <file>textures/G36T0025.JPG</file>
+    </texture>
+    <texture name='BUMPN36T0025.JPG'>
+      <file>textures/N36T0025.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT006.JPG'>
+      <file>textures/G36TT006.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT006.JPG'>
+      <file>textures/N36TT006.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT005.JPG'>
+      <file>textures/G36TT005.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT005.JPG'>
+      <file>textures/N36TT005.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT009.JPG'>
+      <file>textures/G36TT009.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT009.JPG'>
+      <file>textures/N36TT009.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT008.JPG'>
+      <file>textures/G36TT008.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT008.JPG'>
+      <file>textures/N36TT008.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='WW_CC8.JPG'>
+      <file>textures/WW_CC8.JPG</file>
+    </texture>
+    <texture name='BUMPNW_CC8.JPG'>
+      <file>textures/NW_CC8.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT028.JPG'>
+      <file>textures/G36TT028.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT028.JPG'>
+      <file>textures/N36TT028.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT050.JPG'>
+      <file>textures/G36TT050.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN36TT050.JPG'>
+      <file>textures/N36TT050.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT051.JPG'>
+      <file>textures/G36TT051.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT051.JPG'>
+      <file>textures/N36TT051.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT052.JPG'>
+      <file>textures/G36TT052.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT052.JPG'>
+      <file>textures/N36TT052.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='WW_CC1.JPG'>
+      <file>textures/WW_CC1.JPG</file>
+    </texture>
+    <texture name='BUMPNW_CC1.JPG'>
+      <file>textures/NW_CC1.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='WW_CC2.JPG'>
+      <file>textures/WW_CC2.JPG</file>
+    </texture>
+    <texture name='BUMPNW_CC2.JPG'>
+      <file>textures/NW_CC2.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='WW_CC3.JPG'>
+      <file>textures/WW_CC3.JPG</file>
+    </texture>
+    <texture name='BUMPNW_CC3.JPG'>
+      <file>textures/NW_CC3.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='WW_CC4.JPG'>
+      <file>textures/WW_CC4.JPG</file>
+    </texture>
+    <texture name='BUMPNW_CC4.JPG'>
+      <file>textures/NW_CC4.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='WW_CC5.JPG'>
+      <file>textures/WW_CC5.JPG</file>
+    </texture>
+    <texture name='BUMPNW_CC5.JPG'>
+      <file>textures/NW_CC5.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='WW_CC6.JPG'>
+      <file>textures/WW_CC6.JPG</file>
+    </texture>
+    <texture name='BUMPNW_CC6.JPG'>
+      <file>textures/NW_CC6.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36T0016.JPG'>
+      <file>textures/G36T0016.JPG</file>
+    </texture>
+    <texture name='BUMPN36T0016.JPG'>
+      <file>textures/N36T0016.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36T0015.JPG'>
+      <file>textures/G36T0015.JPG</file>
+    </texture>
+    <texture name='BUMPN36T0015.JPG'>
+      <file>textures/N36T0015.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='WW_CC7.JPG'>
+      <file>textures/WW_CC7.JPG</file>
+    </texture>
+    <texture name='BUMPNW_CC7.JPG'>
+      <file>textures/NW_CC7.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT027.JPG'>
+      <file>textures/G36TT027.JPG</file>
+      <alpha>
+        <binary/>
+      </alpha>
+    </texture>
+    <texture name='BUMPN36TT027.JPG'>
+      <file>textures/N36TT027.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT011.JPG'>
+      <file>textures/G36TT011.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT011.JPG'>
+      <file>textures/N36TT011.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT012.JPG'>
+      <file>textures/G36TT012.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT012.JPG'>
+      <file>textures/N36TT012.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT014.JPG'>
+      <file>textures/G36TT014.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT014.JPG'>
+      <file>textures/N36TT014.JPG</file>
+      <class>normalmap</class>
+    </texture>
+    <texture name='G36TT015.JPG'>
+      <file>textures/G36TT015.JPG</file>
+    </texture>
+    <texture name='BUMPN36TT015.JPG'>
+      <file>textures/N36TT015.JPG</file>
+      <class>normalmap</class>
+    </texture>
+  </textures>
+  <materials>
+    <material name='g360028'>
+      <texture>G360028.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN360028.PNG</shadervar>
+    </material>
+    <material name='swt011'>
+      <texture>SWT011.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNSWT011.PNG</shadervar>
+    </material>
+    <material name='g350031'>
+      <texture>G350031.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN350031.PNG</shadervar>
+    </material>
+    <material name='swt007'>
+      <texture>SWT007.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNSWT007.PNG</shadervar>
+    </material>
+    <material name='jt001'>
+      <texture>JT001.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNJT001.PNG</shadervar>
+    </material>
+    <material name='cst06'>
+      <texture>CST06.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNCST06.PNG</shadervar>
+    </material>
+    <material name='g350032'>
+      <texture>G350032.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN350032.PNG</shadervar>
+    </material>
+    <material name='tray408'>
+      <texture>TRAY408.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNTRAY408.PNG</shadervar>
+    </material>
+    <material name='swt019'>
+      <texture>SWT019.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNSWT019.PNG</shadervar>
+    </material>
+    <material name='g36t0027'>
+      <texture>G36T0027.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36T0027.JPG</shadervar>
+    </material>
+    <material name='g330031'>
+      <texture>G330031.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN330031.PNG</shadervar>
+    </material>
+    <material name='cst13'>
+      <texture>CST13.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNCST13.PNG</shadervar>
+    </material>
+    <material name='cst11'>
+      <texture>CST11.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNCST11.PNG</shadervar>
+    </material>
+    <material name='290226'>
+      <texture>290226.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN290226.PNG</shadervar>
+    </material>
+    <material name='168ly'>
+      <texture>168LY.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN168LY.PNG</shadervar>
+    </material>
+    <material name='290227'>
+      <texture>290227.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN290227.PNG</shadervar>
+    </material>
+    <material name='xx155ly'>
+      <texture>XX155LY.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNX155LY.JPG</shadervar>
+    </material>
+    <material name='290228'>
+      <texture>290228.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN290228.PNG</shadervar>
+    </material>
+    <material name='g360026'>
+      <texture>G360026.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN360026.PNG</shadervar>
+    </material>
+    <material name='g36025'>
+      <texture>G36025.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36025.PNG</shadervar>
+    </material>
+    <material name='32290232'>
+      <texture>32290232.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN2290232.JPG</shadervar>
+    </material>
+    <material name='g32290131'>
+      <texture>G3229013.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229013.JPG</shadervar>
+    </material>
+    <material name='g32kk08011'>
+      <texture>G32K0811.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0811.JPG</shadervar>
+    </material>
+    <material name='g32kk08012'>
+      <texture>G32K0812.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0812.JPG</shadervar>
+    </material>
+    <material name='g32kk08013'>
+      <texture>G32K0813.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0813.JPG</shadervar>
+    </material>
+    <material name='g32290221'>
+      <texture>G3229022.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229022.JPG</shadervar>
+    </material>
+    <material name='g32j30142'>
+      <texture>G32J3014.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3014.JPG</shadervar>
+    </material>
+    <material name='g32j30021'>
+      <texture>G32J3002.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3002.JPG</shadervar>
+    </material>
+    <material name='g32k0101'>
+      <texture>G32K0101.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0101.JPG</shadervar>
+    </material>
+    <material name='g32j30041'>
+      <texture>G32J3004.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3004.JPG</shadervar>
+    </material>
+    <material name='g32k0804'>
+      <texture>G32K0804.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0804.JPG</shadervar>
+    </material>
+    <material name='g32k0805'>
+      <texture>G32K0805.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0805.JPG</shadervar>
+    </material>
+    <material name='g32k0806'>
+      <texture>G32K0806.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0806.JPG</shadervar>
+    </material>
+    <material name='g32k0807'>
+      <texture>G32K0807.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0807.JPG</shadervar>
+    </material>
+    <material name='g3104151'>
+      <texture>G310415.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310415.JPG</shadervar>
+    </material>
+    <material name='g32k0802'>
+      <texture>G32K0802.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0802.JPG</shadervar>
+    </material>
+    <material name='g32k0803'>
+      <texture>G32K0803.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0803.JPG</shadervar>
+    </material>
+    <material name='g32j3017'>
+      <texture>G32J3017.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3017.JPG</shadervar>
+    </material>
+    <material name='g32k0809'>
+      <texture>G32K0809.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0809.PNG</shadervar>
+    </material>
+    <material name='g32j3015'>
+      <texture>G32J3015.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3015.JPG</shadervar>
+    </material>
+    <material name='g32k0801'>
+      <texture>G32K0801.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0801.JPG</shadervar>
+    </material>
+    <material name='g32k04041'>
+      <texture>G32K0404.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0404.JPG</shadervar>
+    </material>
+    <material name='g32j30052'>
+      <texture>G32J3005.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3005.JPG</shadervar>
+    </material>
+    <material name='g32j30072'>
+      <texture>G32J3007.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3007.JPG</shadervar>
+    </material>
+    <material name='g32j30221'>
+      <texture>G32J3022.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3022.PNG</shadervar>
+    </material>
+    <material name='g32k0808'>
+      <texture>G32K0808.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0808.PNG</shadervar>
+    </material>
+    <material name='g32j30012'>
+      <texture>G32J3001.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3001.JPG</shadervar>
+    </material>
+    <material name='g310803'>
+      <texture>G310803.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310803.JPG</shadervar>
+    </material>
+    <material name='g310802'>
+      <texture>G310802.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310802.JPG</shadervar>
+    </material>
+    <material name='g310801'>
+      <texture>G310801.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310801.JPG</shadervar>
+    </material>
+    <material name='g32k0813'>
+      <texture>G32K0813.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0813.PNG</shadervar>
+    </material>
+    <material name='g32k03061'>
+      <texture>G32K0306.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0306.JPG</shadervar>
+    </material>
+    <material name='g310805'>
+      <texture>G310805.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310805.JPG</shadervar>
+    </material>
+    <material name='g32k0810'>
+      <texture>G32K0810.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0810.PNG</shadervar>
+    </material>
+    <material name='g3229022'>
+      <texture>G3229022.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229022.JPG</shadervar>
+    </material>
+    <material name='g32j2902'>
+      <texture>G32J2902.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J2902.JPG</shadervar>
+    </material>
+    <material name='g32j2903'>
+      <texture>G32J2903.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J2903.JPG</shadervar>
+    </material>
+    <material name='g32j2901'>
+      <texture>G32J2901.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J2901.JPG</shadervar>
+    </material>
+    <material name='g32j2906'>
+      <texture>G32J2906.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J2906.JPG</shadervar>
+    </material>
+    <material name='g32j2907'>
+      <texture>G32J2907.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J2907.JPG</shadervar>
+    </material>
+    <material name='g32j2904'>
+      <texture>G32J2904.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J2904.JPG</shadervar>
+    </material>
+    <material name='g32j2905'>
+      <texture>G32J2905.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J2905.JPG</shadervar>
+    </material>
+    <material name='g32j2908'>
+      <texture>G32J2908.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J2908.PNG</shadervar>
+    </material>
+    <material name='g32j2909'>
+      <texture>G32J2909.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J2909.JPG</shadervar>
+    </material>
+    <material name='g3290253'>
+      <texture>G3290253.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290253.JPG</shadervar>
+    </material>
+    <material name='g32j30211'>
+      <texture>G32J3021.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3021.JPG</shadervar>
+    </material>
+    <material name='g3229020'>
+      <texture>G3229020.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229020.JPG</shadervar>
+    </material>
+    <material name='g3229021'>
+      <texture>G3229021.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229021.JPG</shadervar>
+    </material>
+    <material name='g3229014'>
+      <texture>G3229014.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229014.JPG</shadervar>
+    </material>
+    <material name='g3229023'>
+      <texture>G3229023.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229023.JPG</shadervar>
+    </material>
+    <material name='g3229025'>
+      <texture>G3229025.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229025.JPG</shadervar>
+    </material>
+    <material name='g3229017'>
+      <texture>G3229017.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229017.JPG</shadervar>
+    </material>
+    <material name='g3290241'>
+      <texture>G3290241.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290241.JPG</shadervar>
+    </material>
+    <material name='g3290242'>
+      <texture>G3290242.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290242.JPG</shadervar>
+    </material>
+    <material name='g3290243'>
+      <texture>G3290243.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290243.JPG</shadervar>
+    </material>
+    <material name='g3290244'>
+      <texture>G3290244.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290244.JPG</shadervar>
+    </material>
+    <material name='g3290245'>
+      <texture>G3290245.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290245.JPG</shadervar>
+    </material>
+    <material name='g3229016'>
+      <texture>G3229016.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229016.JPG</shadervar>
+    </material>
+    <material name='g3290247'>
+      <texture>G3290247.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290247.JPG</shadervar>
+    </material>
+    <material name='g3290248'>
+      <texture>G3290248.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290248.JPG</shadervar>
+    </material>
+    <material name='g3290249'>
+      <texture>G3290249.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290249.JPG</shadervar>
+    </material>
+    <material name='g3290246'>
+      <texture>G3290246.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290246.JPG</shadervar>
+    </material>
+    <material name='g3290240'>
+      <texture>G3290240.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290240.JPG</shadervar>
+    </material>
+    <material name='g3290254'>
+      <texture>G3290254.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290254.JPG</shadervar>
+    </material>
+    <material name='g3290239'>
+      <texture>G3290239.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290239.JPG</shadervar>
+    </material>
+    <material name='g3290238'>
+      <texture>G3290238.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290238.JPG</shadervar>
+    </material>
+    <material name='g3290231'>
+      <texture>G3290231.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290231.JPG</shadervar>
+    </material>
+    <material name='g3290233'>
+      <texture>G3290233.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290233.JPG</shadervar>
+    </material>
+    <material name='g3290235'>
+      <texture>G3290235.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290235.JPG</shadervar>
+    </material>
+    <material name='g3290234'>
+      <texture>G3290234.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290234.JPG</shadervar>
+    </material>
+    <material name='g3290237'>
+      <texture>G3290237.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290237.JPG</shadervar>
+    </material>
+    <material name='g3290236'>
+      <texture>G3290236.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290236.JPG</shadervar>
+    </material>
+    <material name='g3229015'>
+      <texture>G3229015.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229015.JPG</shadervar>
+    </material>
+    <material name='g3290252'>
+      <texture>G3290252.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290252.JPG</shadervar>
+    </material>
+    <material name='g3290251'>
+      <texture>G3290251.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290251.JPG</shadervar>
+    </material>
+    <material name='g3290250'>
+      <texture>G3290250.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3290250.JPG</shadervar>
+    </material>
+    <material name='g3229011'>
+      <texture>G3229011.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229011.JPG</shadervar>
+    </material>
+    <material name='g3229010'>
+      <texture>G3229010.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229010.JPG</shadervar>
+    </material>
+    <material name='g3229012'>
+      <texture>G3229012.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229012.JPG</shadervar>
+    </material>
+    <material name='g3229019'>
+      <texture>G3229019.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229019.JPG</shadervar>
+    </material>
+    <material name='Material__72'>
+      <texture>no</texture>
+    </material>
+    <material name='g313025'>
+      <texture>G313025.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313025.JPG</shadervar>
+    </material>
+    <material name='g313019'>
+      <texture>G313019.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313019.JPG</shadervar>
+    </material>
+    <material name='g313018'>
+      <texture>G313018.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313018.JPG</shadervar>
+    </material>
+    <material name='Material__119'>
+      <texture>no</texture>
+    </material>
+    <material name='g313011'>
+      <texture>G313011.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313011.JPG</shadervar>
+    </material>
+    <material name='g313010'>
+      <texture>G313010.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313010.JPG</shadervar>
+    </material>
+    <material name='g313012'>
+      <texture>G313012.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313012.JPG</shadervar>
+    </material>
+    <material name='g313015'>
+      <texture>G313015.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313015.JPG</shadervar>
+    </material>
+    <material name='g313014'>
+      <texture>G313014.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313014.JPG</shadervar>
+    </material>
+    <material name='g313017'>
+      <texture>G313017.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313017.JPG</shadervar>
+    </material>
+    <material name='g31j3027'>
+      <texture>G31J3027.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN31J3027.PNG</shadervar>
+    </material>
+    <material name='g313021'>
+      <texture>G313021.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313021.JPG</shadervar>
+    </material>
+    <material name='g313020'>
+      <texture>G313020.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313020.JPG</shadervar>
+    </material>
+    <material name='g313007'>
+      <texture>G313007.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313007.JPG</shadervar>
+    </material>
+    <material name='g313022'>
+      <texture>G313022.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313022.JPG</shadervar>
+    </material>
+    <material name='g313023'>
+      <texture>G313023.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313023.JPG</shadervar>
+    </material>
+    <material name='g313002'>
+      <texture>G313002.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313002.JPG</shadervar>
+    </material>
+    <material name='g313003'>
+      <texture>G313003.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313003.JPG</shadervar>
+    </material>
+    <material name='g313001'>
+      <texture>G313001.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313001.JPG</shadervar>
+    </material>
+    <material name='g313008'>
+      <texture>G313008.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313008.JPG</shadervar>
+    </material>
+    <material name='g313009'>
+      <texture>G313009.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313009.JPG</shadervar>
+    </material>
+    <material name='g313006'>
+      <texture>G313006.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313006.JPG</shadervar>
+    </material>
+    <material name='g36tt0031'>
+      <texture>G36TT003.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT003.JPG</shadervar>
+    </material>
+    <material name='g313004'>
+      <texture>G313004.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313004.JPG</shadervar>
+    </material>
+    <material name='g313024'>
+      <texture>G313024.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313024.JPG</shadervar>
+    </material>
+    <material name='g32j3002'>
+      <texture>G32J3002.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3002.JPG</shadervar>
+    </material>
+    <material name='g32k0408'>
+      <texture>G32K0408.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0408.PNG</shadervar>
+    </material>
+    <material name='g32j3021'>
+      <texture>G32J3021.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3021.JPG</shadervar>
+    </material>
+    <material name='g32j3022'>
+      <texture>G32J3022.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3022.PNG</shadervar>
+    </material>
+    <material name='g32k0401'>
+      <texture>G32K0401.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0401.PNG</shadervar>
+    </material>
+    <material name='g32k0404'>
+      <texture>G32K0404.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0404.JPG</shadervar>
+    </material>
+    <material name='g32j30011'>
+      <texture>G32J3001.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3001.JPG</shadervar>
+    </material>
+    <material name='g32k0406'>
+      <texture>G32K0406.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0406.PNG</shadervar>
+    </material>
+    <material name='g32k0407'>
+      <texture>G32K0407.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0407.JPG</shadervar>
+    </material>
+    <material name='g32k0306'>
+      <texture>G32K0306.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0306.JPG</shadervar>
+    </material>
+    <material name='g32k0405'>
+      <texture>G32K0405.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0405.JPG</shadervar>
+    </material>
+    <material name='g32k0308'>
+      <texture>G32K0308.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0308.JPG</shadervar>
+    </material>
+    <material name='g32j30051'>
+      <texture>G32J3005.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3005.JPG</shadervar>
+    </material>
+    <material name='g32j30161'>
+      <texture>G32J3016.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3016.JPG</shadervar>
+    </material>
+    <material name='g32j3003'>
+      <texture>G32J3003.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3003.JPG</shadervar>
+    </material>
+    <material name='g32j3004'>
+      <texture>G32J3004.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3004.JPG</shadervar>
+    </material>
+    <material name='g32j30071'>
+      <texture>G32J3007.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3007.JPG</shadervar>
+    </material>
+    <material name='g32j30141'>
+      <texture>G32J3014.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3014.JPG</shadervar>
+    </material>
+    <material name='g32k0107'>
+      <texture>G32K0107.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0107.JPG</shadervar>
+    </material>
+    <material name='g32k0106'>
+      <texture>G32K0106.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32K0106.JPG</shadervar>
+    </material>
+    <material name='g32j3007'>
+      <texture>G32J3007.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3007.JPG</shadervar>
+    </material>
+    <material name='g32j3005'>
+      <texture>G32J3005.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3005.JPG</shadervar>
+    </material>
+    <material name='g32j3001'>
+      <texture>G32J3001.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3001.JPG</shadervar>
+    </material>
+    <material name='g32j3016'>
+      <texture>G32J3016.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3016.JPG</shadervar>
+    </material>
+    <material name='g32j3014'>
+      <texture>G32J3014.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3014.JPG</shadervar>
+    </material>
+    <material name='g3231013'>
+      <texture>G3231013.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3231013.JPG</shadervar>
+    </material>
+    <material name='g313138'>
+      <texture>G313138.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313138.JPG</shadervar>
+    </material>
+    <material name='g31j3110'>
+      <texture>G31J3110.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN31J3110.PNG</shadervar>
+    </material>
+    <material name='g313117'>
+      <texture>G313117.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313117.JPG</shadervar>
+    </material>
+    <material name='g31j3119'>
+      <texture>G31J3119.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN31J3119.PNG</shadervar>
+    </material>
+    <material name='g313129'>
+      <texture>G313129.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313129.JPG</shadervar>
+    </material>
+    <material name='g313128'>
+      <texture>G313128.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313128.JPG</shadervar>
+    </material>
+    <material name='g313132'>
+      <texture>G313132.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313132.JPG</shadervar>
+    </material>
+    <material name='g313133'>
+      <texture>G313133.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313133.JPG</shadervar>
+    </material>
+    <material name='g313130'>
+      <texture>G313130.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313130.JPG</shadervar>
+    </material>
+    <material name='g313131'>
+      <texture>G313131.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313131.JPG</shadervar>
+    </material>
+    <material name='g313118'>
+      <texture>G313118.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313118.JPG</shadervar>
+    </material>
+    <material name='g313134'>
+      <texture>G313134.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313134.JPG</shadervar>
+    </material>
+    <material name='g313135'>
+      <texture>G313135.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313135.JPG</shadervar>
+    </material>
+    <material name='g313115'>
+      <texture>G313115.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313115.JPG</shadervar>
+    </material>
+    <material name='g313116'>
+      <texture>G313116.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313116.JPG</shadervar>
+    </material>
+    <material name='g313139'>
+      <texture>G313139.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313139.JPG</shadervar>
+    </material>
+    <material name='g313111'>
+      <texture>G313111.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313111.JPG</shadervar>
+    </material>
+    <material name='g313112'>
+      <texture>G313112.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313112.JPG</shadervar>
+    </material>
+    <material name='g313113'>
+      <texture>G313113.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313113.JPG</shadervar>
+    </material>
+    <material name='g31j3140'>
+      <texture>G31J3140.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN31J3140.PNG</shadervar>
+    </material>
+    <material name='g31j3107'>
+      <texture>G31J3107.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN31J3107.PNG</shadervar>
+    </material>
+    <material name='g31j3108'>
+      <texture>G31J3108.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN31J3108.PNG</shadervar>
+    </material>
+    <material name='g31j3109'>
+      <texture>G31J3109.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN31J3109.PNG</shadervar>
+    </material>
+    <material name='g31j3120'>
+      <texture>G31J3120.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN31J3120.PNG</shadervar>
+    </material>
+    <material name='g313136'>
+      <texture>G313136.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313136.JPG</shadervar>
+    </material>
+    <material name='g313125'>
+      <texture>G313125.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313125.JPG</shadervar>
+    </material>
+    <material name='g313124'>
+      <texture>G313124.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313124.JPG</shadervar>
+    </material>
+    <material name='g313127'>
+      <texture>G313127.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313127.JPG</shadervar>
+    </material>
+    <material name='g313126'>
+      <texture>G313126.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313126.JPG</shadervar>
+    </material>
+    <material name='g313121'>
+      <texture>G313121.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313121.JPG</shadervar>
+    </material>
+    <material name='g313123'>
+      <texture>G313123.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313123.JPG</shadervar>
+    </material>
+    <material name='g313122'>
+      <texture>G313122.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313122.JPG</shadervar>
+    </material>
+    <material name='g313106'>
+      <texture>G313106.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313106.JPG</shadervar>
+    </material>
+    <material name='g313105'>
+      <texture>G313105.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313105.JPG</shadervar>
+    </material>
+    <material name='g313104'>
+      <texture>G313104.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313104.JPG</shadervar>
+    </material>
+    <material name='g313103'>
+      <texture>G313103.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313103.JPG</shadervar>
+    </material>
+    <material name='g313102'>
+      <texture>G313102.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313102.JPG</shadervar>
+    </material>
+    <material name='g313101'>
+      <texture>G313101.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN313101.JPG</shadervar>
+    </material>
+    <material name='g310429'>
+      <texture>G310429.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310429.JPG</shadervar>
+    </material>
+    <material name='g310402'>
+      <texture>G310402.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310402.JPG</shadervar>
+    </material>
+    <material name='g310409'>
+      <texture>G310409.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310409.JPG</shadervar>
+    </material>
+    <material name='g310425'>
+      <texture>G310425.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310425.JPG</shadervar>
+    </material>
+    <material name='g310424'>
+      <texture>G310424.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310424.JPG</shadervar>
+    </material>
+    <material name='g310427'>
+      <texture>G310427.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310427.JPG</shadervar>
+    </material>
+    <material name='g310426'>
+      <texture>G310426.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310426.JPG</shadervar>
+    </material>
+    <material name='g310421'>
+      <texture>G310421.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310421.JPG</shadervar>
+    </material>
+    <material name='g310420'>
+      <texture>G310420.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310420.JPG</shadervar>
+    </material>
+    <material name='g310423'>
+      <texture>G310423.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310423.JPG</shadervar>
+    </material>
+    <material name='g310408'>
+      <texture>G310408.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310408.JPG</shadervar>
+    </material>
+    <material name='g310407'>
+      <texture>G310407.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310407.JPG</shadervar>
+    </material>
+    <material name='g310406'>
+      <texture>G310406.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310406.JPG</shadervar>
+    </material>
+    <material name='g310405'>
+      <texture>G310405.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310405.JPG</shadervar>
+    </material>
+    <material name='g310404'>
+      <texture>G310404.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310404.JPG</shadervar>
+    </material>
+    <material name='g310403'>
+      <texture>G310403.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310403.JPG</shadervar>
+    </material>
+    <material name='g310428'>
+      <texture>G310428.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310428.JPG</shadervar>
+    </material>
+    <material name='g310401'>
+      <texture>G310401.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310401.JPG</shadervar>
+    </material>
+    <material name='g310717'>
+      <texture>G310717.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310717.JPG</shadervar>
+    </material>
+    <material name='g31k0434'>
+      <texture>G31K0434.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN31K0434.PNG</shadervar>
+    </material>
+    <material name='g310433'>
+      <texture>G310433.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310433.JPG</shadervar>
+    </material>
+    <material name='g310430'>
+      <texture>G310430.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310430.JPG</shadervar>
+    </material>
+    <material name='g310431'>
+      <texture>G310431.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310431.JPG</shadervar>
+    </material>
+    <material name='g310418'>
+      <texture>G310418.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310418.JPG</shadervar>
+    </material>
+    <material name='g310419'>
+      <texture>G310419.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310419.JPG</shadervar>
+    </material>
+    <material name='g310422'>
+      <texture>G310422.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310422.JPG</shadervar>
+    </material>
+    <material name='g310414'>
+      <texture>G310414.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310414.JPG</shadervar>
+    </material>
+    <material name='g310415'>
+      <texture>G310415.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310415.JPG</shadervar>
+    </material>
+    <material name='g310416'>
+      <texture>G310416.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310416.JPG</shadervar>
+    </material>
+    <material name='g310417'>
+      <texture>G310417.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310417.JPG</shadervar>
+    </material>
+    <material name='g310411'>
+      <texture>G310411.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310411.JPG</shadervar>
+    </material>
+    <material name='g310412'>
+      <texture>G310412.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310412.JPG</shadervar>
+    </material>
+    <material name='g310413'>
+      <texture>G310413.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN310413.JPG</shadervar>
+    </material>
+    <material name='g3229013'>
+      <texture>G3229013.PNG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN3229013.PNG</shadervar>
+    </material>
+    <material name='ww_cc00'>
+      <texture>WW_CC00.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNW_CC00.JPG</shadervar>
+    </material>
+    <material name='g32kj3005'>
+      <texture>G32J3005.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN32J3005.JPG</shadervar>
+    </material>
+    <material name='g36t0025'>
+      <texture>G36T0025.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36T0025.JPG</shadervar>
+    </material>
+    <material name='g36tt003'>
+      <texture>G36TT003.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT003.JPG</shadervar>
+    </material>
+    <material name='g36tt006'>
+      <texture>G36TT006.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT006.JPG</shadervar>
+    </material>
+    <material name='g36tt005'>
+      <texture>G36TT005.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT005.JPG</shadervar>
+    </material>
+    <material name='g36tt009'>
+      <texture>G36TT009.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT009.JPG</shadervar>
+    </material>
+    <material name='g36tt008'>
+      <texture>G36TT008.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT008.JPG</shadervar>
+    </material>
+    <material name='ww_cc8'>
+      <texture>WW_CC8.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNW_CC8.JPG</shadervar>
+    </material>
+    <material name='g36tt028'>
+      <texture>G36TT028.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT028.JPG</shadervar>
+    </material>
+    <material name='g36tt0-50'>
+      <texture>G36TT050.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT050.JPG</shadervar>
+    </material>
+    <material name='g36tt0-51'>
+      <texture>G36TT051.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT051.JPG</shadervar>
+    </material>
+    <material name='g36tt0-52'>
+      <texture>G36TT052.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT052.JPG</shadervar>
+    </material>
+    <material name='ww_cc1'>
+      <texture>WW_CC1.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNW_CC1.JPG</shadervar>
+    </material>
+    <material name='ww_cc2'>
+      <texture>WW_CC2.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNW_CC2.JPG</shadervar>
+    </material>
+    <material name='ww_cc3'>
+      <texture>WW_CC3.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNW_CC3.JPG</shadervar>
+    </material>
+    <material name='ww_cc4'>
+      <texture>WW_CC4.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNW_CC4.JPG</shadervar>
+    </material>
+    <material name='ww_cc5'>
+      <texture>WW_CC5.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNW_CC5.JPG</shadervar>
+    </material>
+    <material name='ww_cc6'>
+      <texture>WW_CC6.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNW_CC6.JPG</shadervar>
+    </material>
+    <material name='g36tt0016'>
+      <texture>G36T0016.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36T0016.JPG</shadervar>
+    </material>
+    <material name='g36tt0015'>
+      <texture>G36T0015.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36T0015.JPG</shadervar>
+    </material>
+    <material name='ww_cc7'>
+      <texture>WW_CC7.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPNW_CC7.JPG</shadervar>
+    </material>
+    <material name='g36tt027'>
+      <texture>G36TT027.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT027.JPG</shadervar>
+    </material>
+    <material name='g36tt011'>
+      <texture>G36TT011.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT011.JPG</shadervar>
+    </material>
+    <material name='g36tt012'>
+      <texture>G36TT012.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT012.JPG</shadervar>
+    </material>
+    <material name='g36tt014'>
+      <texture>G36TT014.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT014.JPG</shadervar>
+    </material>
+    <material name='g36tt015'>
+      <texture>G36TT015.JPG</texture>
+      <shader type='diffuse'>light_bumpmap</shader>
+      <shadervar type='texture' name='tex normal'>BUMPN36TT015.JPG</shadervar>
+    </material>
+    <material name='Material'>
+      <texture>no</texture>
+    </material>
+	
+	
+	<material name="ScatterSky?">
+
+
+<color red="0" green="0" blue="0" /> 
+
+
+<shadervar type='vector3' name="sky base color">0.0,0.1,0.4</shadervar>
+<shadervar type='vector3' name="sky sun-glow color">0.9,0.3,0</shadervar>
+<shadervar type='float' name="sky sun size">0.004</shadervar>
+
+
+<shader type="ambient">sky_scattering</shader>
+
+
+</material>
+
+
+
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/genalpha_43_g360028</library>
+  <library>factories/genalpha_43_swt011</library>
+  <library>factories/genalpha_43_g350031</library>
+  <library>factories/genalpha_43_swt007</library>
+  <library>factories/genalpha_43_jt001</library>
+  <library>factories/genalpha_43_cst06</library>
+  <library>factories/genalpha_43_g350032</library>
+  <library>factories/genalpha_43_tray408</library>
+  <library>factories/genalpha_43_swt019</library>
+  <library>factories/genalpha_43_g36t0027</library>
+  <library>factories/genalpha_43_g330031</library>
+  <library>factories/genalpha_43_cst13</library>
+  <library>factories/genalpha_43_cst11</library>
+  <library>factories/genalpha_43_290226</library>
+  <library>factories/genalpha_43_168ly</library>
+  <library>factories/genalpha_43_290227</library>
+  <library>factories/genalpha_43_xx155ly</library>
+  <library>factories/genalpha_43_290228</library>
+  <library>factories/genalpha_43_g360026</library>
+  <library>factories/genalpha_43_g36025</library>
+  <library>factories/genalpha_32290232</library>
+  <library>factories/genalpha_g32290131</library>
+  <library>factories/genbud_27_g32kk08011</library>
+  <library>factories/genbud_27_g32kk08012</library>
+  <library>factories/genbud_27_g32kk08013</library>
+  <library>factories/genbud_27_g32290221</library>
+  <library>factories/genbud_27_g32j30142</library>
+  <library>factories/genbud_27_g32j30021</library>
+  <library>factories/genbud_27_g32k0101</library>
+  <library>factories/genbud_27_g32j30041</library>
+  <library>factories/genbud_27_g32k0804</library>
+  <library>factories/genbud_27_g32k0805</library>
+  <library>factories/genbud_27_g32k0806</library>
+  <library>factories/genbud_27_g32k0807</library>
+  <library>factories/genbud_27_g3104151</library>
+  <library>factories/genbud_27_g32k0802</library>
+  <library>factories/genbud_27_g32k0803</library>
+  <library>factories/genbud_27_g32j3017</library>
+  <library>factories/genbud_27_g32k0809</library>
+  <library>factories/genbud_27_g32j3015</library>
+  <library>factories/genbud_27_g32k0801</library>
+  <library>factories/genbud_27_g32k04041</library>
+  <library>factories/genbud_27_g32j30052</library>
+  <library>factories/genbud_27_g32j30072</library>
+  <library>factories/genbud_27_g32j30221</library>
+  <library>factories/genbud_27_g32k0808</library>
+  <library>factories/genbud_27_g32j30012</library>
+  <library>factories/genbud_27_g310803</library>
+  <library>factories/genbud_27_g310802</library>
+  <library>factories/genbud_27_g310801</library>
+  <library>factories/genbud_27_g32k0813</library>
+  <library>factories/genbud_27_g32k03061</library>
+  <library>factories/genbud_27_g310805</library>
+  <library>factories/genbud_27_g32k0810</library>
+  <library>factories/genbud_26_g3229022</library>
+  <library>factories/genbud_26_g32j2902</library>
+  <library>factories/genbud_26_g32j2903</library>
+  <library>factories/genbud_26_g32j2901</library>
+  <library>factories/genbud_26_g32j2906</library>
+  <library>factories/genbud_26_g32j2907</library>
+  <library>factories/genbud_26_g32j2904</library>
+  <library>factories/genbud_26_g32j2905</library>
+  <library>factories/genbud_26_g32j2908</library>
+  <library>factories/genbud_26_g32j2909</library>
+  <library>factories/genbud_26_g3290253</library>
+  <library>factories/genbud_26_g32j30211</library>
+  <library>factories/genbud_26_g3229020</library>
+  <library>factories/genbud_26_g3229021</library>
+  <library>factories/genbud_26_g3229014</library>
+  <library>factories/genbud_26_g3229023</library>
+  <library>factories/genbud_26_g3229025</library>
+  <library>factories/genbud_26_g3229017</library>
+  <library>factories/genbud_26_g3290241</library>
+  <library>factories/genbud_26_g3290242</library>
+  <library>factories/genbud_26_g3290243</library>
+  <library>factories/genbud_26_g3290244</library>
+  <library>factories/genbud_26_g3290245</library>
+  <library>factories/genbud_26_g3229016</library>
+  <library>factories/genbud_26_g3290247</library>
+  <library>factories/genbud_26_g3290248</library>
+  <library>factories/genbud_26_g3290249</library>
+  <library>factories/genbud_26_g3290246</library>
+  <library>factories/genbud_26_g3290240</library>
+  <library>factories/genbud_26_g3290254</library>
+  <library>factories/genbud_26_g3290239</library>
+  <library>factories/genbud_26_g3290238</library>
+  <library>factories/genbud_26_g3290231</library>
+  <library>factories/genbud_26_g3290233</library>
+  <library>factories/genbud_26_g3290235</library>
+  <library>factories/genbud_26_g3290234</library>
+  <library>factories/genbud_26_g3290237</library>
+  <library>factories/genbud_26_g3290236</library>
+  <library>factories/genbud_26_g3229015</library>
+  <library>factories/genbud_26_g3290252</library>
+  <library>factories/genbud_26_g3290251</library>
+  <library>factories/genbud_26_g3290250</library>
+  <library>factories/genbud_26_g3229011</library>
+  <library>factories/genbud_26_g3229010</library>
+  <library>factories/genbud_26_g3229012</library>
+  <library>factories/genbud_26_g3229019</library>
+  <library>factories/genbud_24_Material__72</library>
+  <library>factories/genbud_24_g313025</library>
+  <library>factories/genbud_24_g313019</library>
+  <library>factories/genbud_24_g313018</library>
+  <library>factories/genbud_24_Material__119</library>
+  <library>factories/genbud_24_g313011</library>
+  <library>factories/genbud_24_g313010</library>
+  <library>factories/genbud_24_g313012</library>
+  <library>factories/genbud_24_g313015</library>
+  <library>factories/genbud_24_g313014</library>
+  <library>factories/genbud_24_g313017</library>
+  <library>factories/genbud_24_g31j3027</library>
+  <library>factories/genbud_24_g313021</library>
+  <library>factories/genbud_24_g313020</library>
+  <library>factories/genbud_24_g313007</library>
+  <library>factories/genbud_24_g313022</library>
+  <library>factories/genbud_24_g313023</library>
+  <library>factories/genbud_24_g313002</library>
+  <library>factories/genbud_24_g313003</library>
+  <library>factories/genbud_24_g313001</library>
+  <library>factories/genbud_24_g313008</library>
+  <library>factories/genbud_24_g313009</library>
+  <library>factories/genbud_24_g313006</library>
+  <library>factories/genbud_24_g36tt0031</library>
+  <library>factories/genbud_24_g313004</library>
+  <library>factories/genbud_24_g313024</library>
+  <library>factories/genbud_09_g32j3002</library>
+  <library>factories/genbud_09_g32k0408</library>
+  <library>factories/genbud_09_g32j3021</library>
+  <library>factories/genbud_09_g32j3022</library>
+  <library>factories/genbud_09_g32k0401</library>
+  <library>factories/genbud_09_g32k0404</library>
+  <library>factories/genbud_09_g32j30011</library>
+  <library>factories/genbud_09_g32k0406</library>
+  <library>factories/genbud_09_g32k0407</library>
+  <library>factories/genbud_09_g32k0306</library>
+  <library>factories/genbud_09_g32k0405</library>
+  <library>factories/genbud_09_g32k0308</library>
+  <library>factories/genbud_09_g32j30051</library>
+  <library>factories/genbud_09_g32j30161</library>
+  <library>factories/genbud_09_g32j3003</library>
+  <library>factories/genbud_09_g32j3004</library>
+  <library>factories/genbud_09_g32j30071</library>
+  <library>factories/genbud_09_g32j30141</library>
+  <library>factories/genbud_05_g32k0107</library>
+  <library>factories/genbud_05_g32k0106</library>
+  <library>factories/genbud_05_g32j3007</library>
+  <library>factories/genbud_05_g32j3005</library>
+  <library>factories/genbud_05_g32j3001</library>
+  <library>factories/genbud_05_g32j3016</library>
+  <library>factories/genbud_05_g32j3014</library>
+  <library>factories/genbud_05_g3231013</library>
+  <library>factories/genbud_03_g313138</library>
+  <library>factories/genbud_03_g31j3110</library>
+  <library>factories/genbud_03_g313117</library>
+  <library>factories/genbud_03_g31j3119</library>
+  <library>factories/genbud_03_g313129</library>
+  <library>factories/genbud_03_g313128</library>
+  <library>factories/genbud_03_g313132</library>
+  <library>factories/genbud_03_g313133</library>
+  <library>factories/genbud_03_g313130</library>
+  <library>factories/genbud_03_g313131</library>
+  <library>factories/genbud_03_g313118</library>
+  <library>factories/genbud_03_g313134</library>
+  <library>factories/genbud_03_g313135</library>
+  <library>factories/genbud_03_g313115</library>
+  <library>factories/genbud_03_g313116</library>
+  <library>factories/genbud_03_g313139</library>
+  <library>factories/genbud_03_g313111</library>
+  <library>factories/genbud_03_g313112</library>
+  <library>factories/genbud_03_g313113</library>
+  <library>factories/genbud_03_g31j3140</library>
+  <library>factories/genbud_03_g31j3107</library>
+  <library>factories/genbud_03_g31j3108</library>
+  <library>factories/genbud_03_g31j3109</library>
+  <library>factories/genbud_03_g31j3120</library>
+  <library>factories/genbud_03_g313136</library>
+  <library>factories/genbud_03_g313125</library>
+  <library>factories/genbud_03_g313124</library>
+  <library>factories/genbud_03_g313127</library>
+  <library>factories/genbud_03_g313126</library>
+  <library>factories/genbud_03_g313121</library>
+  <library>factories/genbud_03_g313123</library>
+  <library>factories/genbud_03_g313122</library>
+  <library>factories/genbud_03_g313106</library>
+  <library>factories/genbud_03_g313105</library>
+  <library>factories/genbud_03_g313104</library>
+  <library>factories/genbud_03_g313103</library>
+  <library>factories/genbud_03_g313102</library>
+  <library>factories/genbud_03_g313101</library>
+  <library>factories/genbud_02_g310429</library>
+  <library>factories/genbud_02_g310402</library>
+  <library>factories/genbud_02_g310409</library>
+  <library>factories/genbud_02_g310425</library>
+  <library>factories/genbud_02_g310424</library>
+  <library>factories/genbud_02_g310427</library>
+  <library>factories/genbud_02_g310426</library>
+  <library>factories/genbud_02_g310421</library>
+  <library>factories/genbud_02_g310420</library>
+  <library>factories/genbud_02_g310423</library>
+  <library>factories/genbud_02_g310408</library>
+  <library>factories/genbud_02_g310407</library>
+  <library>factories/genbud_02_g310406</library>
+  <library>factories/genbud_02_g310405</library>
+  <library>factories/genbud_02_g310404</library>
+  <library>factories/genbud_02_g310403</library>
+  <library>factories/genbud_02_g310428</library>
+  <library>factories/genbud_02_g310401</library>
+  <library>factories/genbud_02_g310717</library>
+  <library>factories/genbud_02_g31k0434</library>
+  <library>factories/genbud_02_g310433</library>
+  <library>factories/genbud_02_g310430</library>
+  <library>factories/genbud_02_g310431</library>
+  <library>factories/genbud_02_g310418</library>
+  <library>factories/genbud_02_g310419</library>
+  <library>factories/genbud_02_g310422</library>
+  <library>factories/genbud_02_g310414</library>
+  <library>factories/genbud_02_g310415</library>
+  <library>factories/genbud_02_g310416</library>
+  <library>factories/genbud_02_g310417</library>
+  <library>factories/genbud_02_g310411</library>
+  <library>factories/genbud_02_g310412</library>
+  <library>factories/genbud_02_g310413</library>
+  <library>factories/genbud_02_g3229013</library>
+  <library>factories/genguidao_ww_cc00</library>
+  <library>factories/genguidao_g32kj3005</library>
+  <library>factories/genguidao_g36t0025</library>
+  <library>factories/genguidao_g36tt003</library>
+  <library>factories/genguidao_g36tt006</library>
+  <library>factories/genguidao_g36tt005</library>
+  <library>factories/genguidao_g36tt009</library>
+  <library>factories/genguidao_g36tt008</library>
+  <library>factories/genguidao_ww_cc8</library>
+  <library>factories/genguidao_g36tt028</library>
+  <library>factories/genguidao_g36tt0-50</library>
+  <library>factories/genguidao_g36tt0-51</library>
+  <library>factories/genguidao_g36tt0-52</library>
+  <library>factories/genguidao_ww_cc1</library>
+  <library>factories/genguidao_ww_cc2</library>
+  <library>factories/genguidao_ww_cc3</library>
+  <library>factories/genguidao_ww_cc4</library>
+  <library>factories/genguidao_ww_cc5</library>
+  <library>factories/genguidao_ww_cc6</library>
+  <library>factories/genguidao_g36tt0016</library>
+  <library>factories/genguidao_g36tt0015</library>
+  <library>factories/genguidao_ww_cc7</library>
+  <library>factories/genguidao_g36tt027</library>
+  <library>factories/genguidao_g36tt011</library>
+  <library>factories/genguidao_g36tt012</library>
+  <library>factories/genguidao_g36tt014</library>
+  <library>factories/genguidao_g36tt015</library>
+  <library>factories/genCube</library>
+  
+<meshfact name="skydome">
+<plugin>genmeshfact</plugin>
+<params>
+<sphere rimvertices="64" reversed="true">
+<radius x="500000" y="500000" z="500000" />
+</sphere>
+</params>
+</meshfact>
+
+  <triggers/>
+  <addon>
+    <plugin>crystalspace.renderloop.loop.loader</plugin>
+    <paramsfile>/shader/std_rloop_shadowed.xml</paramsfile>
+  </addon>
+  <sector name='Scene'>
+    <renderloop>std_rloop_shadowed</renderloop>
+    <ambient blue='0.5' green='0.5' red='0.5'/>
+    <cullerp plugin='crystalspace.culling.frustvis'/>
+    <meshobj name='alpha_43_g360028'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_g360028</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-19.5471' x='85.9176' z='82.2104'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_swt011'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_swt011</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-14.3806' x='-70.3056' z='123.662'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_g350031'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_g350031</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='26.6734' x='-40.9993' z='19.7362'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_swt007'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_swt007</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-17.7631' x='-66.5864' z='102.391'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_jt001'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_jt001</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='20.2292' x='56.433' z='100.661'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_cst06'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_cst06</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-3.9217' x='113.279' z='80.7906'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_g350032'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_g350032</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-1.1868' x='110.976' z='84.455'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_tray408'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_tray408</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-17.5689' x='12.6653' z='-1.5827'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_swt019'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_swt019</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='33.4195' x='8.1758' z='-33.8979'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_g36t0027'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_g36t0027</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='16.7574' x='78.4057' z='101.346'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_g330031'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_g330031</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-3.0166' x='113.113' z='84.1703'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_cst13'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_cst13</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-17.2988' x='71.7444' z='1.9411'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_cst11'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_cst11</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-17.0719' x='-64.148' z='140.609'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_290226'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_290226</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-15.857' x='-32.0632' z='40.107'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_168ly'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_168ly</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='0.6381' x='143.955' z='59.45'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_290227'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_290227</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-17.0425' x='-32.4755' z='34.4313'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_xx155ly'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_xx155ly</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-14.4708' x='153.638' z='57.5106'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_290228'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_290228</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-16.6446' x='-33.3816' z='37.5046'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_g360026'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_g360026</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-1.0871' x='112.932' z='83.8239'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_43_g36025'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_43_g36025</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-12.8263' x='58.2669' z='-101.749'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_32290232'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_32290232</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-15.2056' x='7.5328' z='-59.0234'/>
+      </move>
+    </meshobj>
+    <meshobj name='alpha_g32290131'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genalpha_g32290131</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.4807' x='14.7336' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32kk08011'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32kk08011</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='21.5021' x='173.278' z='-176.073'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32kk08012'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32kk08012</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='14.172' x='214.876' z='-92.8711'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32kk08013'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32kk08013</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-34.5643' x='169.231' z='-80.1236'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32290221'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32290221</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-14.3401' x='195.228' z='-151.072'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32j30142'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32j30142</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-10.8307' x='164.832' z='-227.081'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32j30021'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32j30021</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='13.6955' x='190.754' z='-114.998'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0101'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0101</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='9.6758' x='187.628' z='-179.822'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32j30041'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32j30041</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='21.1254' x='225.799' z='-88.728'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0804'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0804</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.6112' x='179.255' z='24.1225'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0805'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0805</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.6112' x='179.255' z='-0.012'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0806'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0806</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.6112' x='179.255' z='48.257'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0807'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0807</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-28.7296' x='179.236' z='23.8276'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g3104151'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g3104151</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='3.7948' x='179.012' z='23.5028'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0802'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0802</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.2033' x='205.628' z='-68.6878'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0803'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0803</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='22.4649' x='197.479' z='-101.308'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32j3017'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32j3017</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='14.6256' x='168.723' z='-124.599'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0809'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0809</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='17.9172' x='166.035' z='47.2561'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32j3015'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32j3015</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='12.9899' x='180.104' z='-128.814'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0801'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0801</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='19.2469' x='204.471' z='-92.0953'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k04041'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k04041</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='21.2366' x='162.001' z='-110.142'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32j30052'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32j30052</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='10.3777' x='192.543' z='-110.142'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32j30072'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32j30072</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.1435' x='179.297' z='23.9527'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32j30221'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32j30221</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='9.088' x='185.731' z='16.6342'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0808'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0808</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='16.2785' x='175.058' z='40.4173'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32j30012'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32j30012</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.3114' x='189.998' z='-171.522'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g310803'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g310803</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-15.4083' x='194.796' z='-157.268'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g310802'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g310802</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-15.4083' x='186.467' z='-157.268'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g310801'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g310801</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-14.2803' x='195.261' z='-157.268'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0813'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0813</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0.8083' x='199.07' z='-87.8407'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k03061'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k03061</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-2.7354' x='200.843' z='-34.0652'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g310805'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g310805</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-10.1921' x='195.228' z='-151.619'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_27_g32k0810'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_27_g32k0810</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='18.6146' x='166.035' z='-0.0648'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229022'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229022</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.6504' x='-1.7139' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j2902'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j2902</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-2.5506' x='9.5109' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j2903'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j2903</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.8286' x='9.6304' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j2901'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j2901</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='10.5915' x='9.5168' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j2906'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j2906</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.188' x='9.798' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j2907'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j2907</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-11.9436' x='9.5168' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j2904'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j2904</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='9.143' x='-26.3181' z='-68.379'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j2905'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j2905</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-17.0015' x='9.798' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j2908'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j2908</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='20.8019' x='9.1859' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j2909'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j2909</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.4513' x='9.801' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290253'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290253</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-17.1223' x='0.5932' z='-55.9335'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g32j30211'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g32j30211</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-14.5613' x='-22.1467' z='-169.818'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229020'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229020</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.8124' x='11.2272' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229021'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229021</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.7278' x='10.7794' z='-59.2921'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229014'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229014</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-8.2272' x='17.3248' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229023'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229023</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-14.0228' x='10.685' z='-59.1493'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229025'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229025</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.7778' x='9.8427' z='-59.1326'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229017'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229017</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-5.9553' x='-19.3749' z='-68.9491'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290241'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290241</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-13.3804' x='-26.1194' z='-169.818'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290242'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290242</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.3804' x='-31.8192' z='-169.818'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290243'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290243</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.1368' x='-35.7177' z='-169.397'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290244'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290244</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-16.5453' x='-41.6085' z='-169.584'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290245'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290245</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.1368' x='-58.6201' z='-169.397'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229016'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229016</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-3.4021' x='10.3736' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290247'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290247</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-10.5741' x='0.6179' z='-59.4403'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290248'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290248</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.5335' x='-9.3873' z='-60.4093'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290249'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290249</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-13.8949' x='-0.6291' z='-59.4795'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290246'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290246</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.3804' x='-56.0001' z='-169.818'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290240'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290240</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.1368' x='-21.5523' z='-169.397'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290254'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290254</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-16.4579' x='-0.3593' z='-59.9258'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290239'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290239</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.3804' x='0.4832' z='-169.818'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290238'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290238</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.1368' x='-3.1614' z='-169.397'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290231'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290231</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-8.5805' x='19.8712' z='-59.1481'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290233'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290233</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='7.5282' x='-27.4478' z='-68.9565'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290235'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290235</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.4621' x='-11.9483' z='-63.9938'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290234'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290234</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='23.1868' x='9.4045' z='-58.6363'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290237'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290237</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-18.0124' x='-28.4101' z='-171.062'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290236'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290236</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='3.8814' x='-30.991' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229015'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229015</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-12.6459' x='9.582' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290252'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290252</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-14.2847' x='-6.4996' z='-78.7217'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290251'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290251</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-13.0917' x='-9.8896' z='-38.1755'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3290250'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3290250</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.0917' x='3.3528' z='-59.2016'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229011'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229011</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-14.2948' x='9.3679' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229010'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229010</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='14.4874' x='9.4655' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229012'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229012</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-17.8161' x='-16.7713' z='-69.0804'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_26_g3229019'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_26_g3229019</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='7.1157' x='9.0687' z='-59.2543'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_Material__72'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_Material__72</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-3.8262' x='-85.5729' z='-236.921'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313025'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313025</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-5.0774' x='-124.245' z='-268.741'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313019'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313019</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-12.8601' x='-109.831' z='-249.821'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313018'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313018</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-14.8446' x='-109.783' z='-251.7'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_Material__119'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_Material__119</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-1.5867' x='-124.015' z='-268.708'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313011'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313011</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-7.4777' x='-85.6423' z='-237.014'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313010'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313010</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.3252' x='-85.6423' z='-237.014'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313012'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313012</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.8853' x='-126.596' z='-268.585'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313015'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313015</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-10.0909' x='-88.5047' z='-257.87'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313014'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313014</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-2.3426' x='-85.5729' z='-257.08'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313017'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313017</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-16.9024' x='-109.761' z='-254.643'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g31j3027'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g31j3027</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-12.5749' x='-113.738' z='-268.214'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313021'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313021</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-5.0774' x='-115.994' z='-267.488'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313020'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313020</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-5.0774' x='-115.994' z='-275.377'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313007'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313007</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.8853' x='-113.491' z='-262.779'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313022'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313022</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-5.0774' x='-115.994' z='-259.6'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313023'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313023</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-5.0774' x='-124.245' z='-268.741'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313002'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313002</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.3252' x='-85.6423' z='-237.014'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313003'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313003</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.3291' x='-85.6491' z='-246.6'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313001'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313001</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-7.4777' x='-85.6423' z='-237.014'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313008'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313008</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.8853' x='-113.491' z='-273.188'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313009'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313009</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.8853' x='-126.617' z='-268.585'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313006'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313006</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.8853' x='-113.469' z='-252.369'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g36tt0031'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g36tt0031</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-7.4777' x='-111.685' z='-246.862'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313004'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313004</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-15.3291' x='-59.6066' z='-246.862'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_24_g313024'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_24_g313024</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-5.0774' x='-124.204' z='-270.815'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j3002'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j3002</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-22.9046' x='157.616' z='201.372'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32k0408'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32k0408</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-25.2762' x='187.289' z='166.921'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j3021'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j3021</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-23.8661' x='158.86' z='193.847'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j3022'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j3022</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-22.7304' x='150.501' z='188.47'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32k0401'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32k0401</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-31.4654' x='155.742' z='177.617'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32k0404'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32k0404</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-27.4609' x='162.676' z='191.504'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j30011'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j30011</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-29.1186' x='163.532' z='193.734'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32k0406'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32k0406</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-25.657' x='133.323' z='179.602'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32k0407'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32k0407</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-29.4072' x='133.61' z='183.785'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32k0306'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32k0306</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='20.4751' x='183.284' z='175.853'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32k0405'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32k0405</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-27.8138' x='155.3' z='177.043'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32k0308'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32k0308</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-27.6153' x='156.69' z='177.914'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j30051'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j30051</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-22.0838' x='160.702' z='193.788'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j30161'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j30161</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-33.5117' x='160.702' z='193.788'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j3003'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j3003</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-29.1186' x='176.225' z='188.83'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j3004'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j3004</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-22.9046' x='146.887' z='193.478'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j30071'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j30071</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-18.9115' x='160.702' z='193.788'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_09_g32j30141'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_09_g32j30141</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-27.6153' x='156.69' z='177.914'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_05_g32k0107'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_05_g32k0107</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='70.0721' x='-239.315' z='-90.9612'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_05_g32k0106'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_05_g32k0106</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='82.9137' x='-234.079' z='-99.0227'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_05_g32j3007'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_05_g32j3007</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='88.6286' x='-241.815' z='-96.3101'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_05_g32j3005'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_05_g32j3005</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='85.7428' x='-241.583' z='-96.31'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_05_g32j3001'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_05_g32j3001</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='84.5678' x='-245.081' z='-95.8022'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_05_g32j3016'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_05_g32j3016</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='81.6343' x='-241.874' z='-96.31'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_05_g32j3014'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_05_g32j3014</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='88.4042' x='-241.815' z='-96.3101'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_05_g3231013'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_05_g3231013</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='80.0783' x='-240.817' z='-91.7006'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313138'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313138</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='25.7076' x='-27.9878' z='172.763'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g31j3110'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g31j3110</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-10.4543' x='-23.872' z='168.145'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313117'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313117</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.6225' x='-27.9479' z='199.214'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g31j3119'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g31j3119</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.4869' x='-27.9845' z='199.555'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313129'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313129</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-5.3418' x='-42.1358' z='172.169'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313128'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313128</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.5658' x='-42.1358' z='172.169'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313132'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313132</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-5.443' x='-77.314' z='172.187'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313133'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313133</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='25.5896' x='-27.6313' z='172.763'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313130'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313130</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='18.0891' x='-77.314' z='172.187'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313131'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313131</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.4646' x='-77.314' z='172.187'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313118'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313118</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.6445' x='-27.948' z='196.888'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313134'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313134</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='25.5896' x='-27.4111' z='172.763'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313135'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313135</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='25.5896' x='-27.6313' z='172.763'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313115'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313115</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.2185' x='-27.9479' z='185.664'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313116'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313116</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-16.1621' x='-27.9479' z='185.664'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313139'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313139</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='25.0879' x='-27.6314' z='172.768'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313111'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313111</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.0687' x='-27.9329' z='172.274'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313112'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313112</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='21.2328' x='-27.9329' z='172.274'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313113'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313113</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='24.0457' x='-27.8973' z='171.043'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g31j3140'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g31j3140</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='24.2421' x='-27.9673' z='172.576'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g31j3107'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g31j3107</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-10.5585' x='-32.0052' z='168.145'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g31j3108'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g31j3108</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-10.5585' x='-29.3972' z='168.145'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g31j3109'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g31j3109</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-10.4543' x='-26.5475' z='168.145'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g31j3120'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g31j3120</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='22.2598' x='-27.9845' z='199.555'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313136'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313136</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='25.9308' x='-27.9878' z='172.763'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313125'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313125</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.6462' x='-13.7708' z='172.169'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313124'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313124</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='17.0287' x='-13.7708' z='172.169'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313127'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313127</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='18.1903' x='-42.1358' z='172.169'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313126'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313126</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-8.1375' x='-13.7708' z='172.169'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313121'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313121</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='17.0287' x='21.418' z='172.169'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313123'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313123</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-8.1375' x='21.418' z='172.169'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313122'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313122</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.6462' x='21.418' z='172.169'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313106'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313106</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.6991' x='-27.948' z='182.674'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313105'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313105</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-14.8183' x='-27.9479' z='172.138'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313104'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313104</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.1394' x='-27.948' z='183.834'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313103'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313103</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.6337' x='-27.948' z='184.269'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313102'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313102</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='6.1944' x='-27.9479' z='172.436'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_03_g313101'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_03_g313101</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-13.5237' x='-27.9479' z='172.436'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310429'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310429</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='23.158' x='-191.419' z='104.993'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310402'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310402</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='13.1012' x='-224.994' z='134.328'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310409'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310409</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='7.4765' x='-199.012' z='127.533'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310425'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310425</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='25.134' x='-191.649' z='112.389'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310424'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310424</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='22.2911' x='-226.924' z='134.28'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310427'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310427</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='11.1831' x='-191.419' z='119.511'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310426'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310426</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='23.158' x='-191.419' z='119.511'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310421'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310421</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='16.201' x='-231.158' z='178.851'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310420'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310420</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='16.9782' x='-226.925' z='134.28'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310423'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310423</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='16.4359' x='-227.3' z='134.28'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310408'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310408</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.428' x='-199.589' z='127.533'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310407'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310407</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.0003' x='-199.397' z='153.422'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310406'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310406</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='17.1013' x='-199.397' z='145.985'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310405'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310405</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.6321' x='-191.932' z='112.274'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310404'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310404</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.6321' x='-191.932' z='113.009'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310403'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310403</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.6321' x='-191.932' z='112.364'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310428'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310428</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.4589' x='-191.419' z='119.511'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310401'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310401</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='17.1534' x='-191.932' z='112.364'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310717'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310717</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='7.0976' x='-197.68' z='177.608'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g31k0434'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g31k0434</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='4.165' x='-235.222' z='184.983'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310433'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310433</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='28.855' x='-246.346' z='173.653'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310430'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310430</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='11.1831' x='-191.419' z='104.993'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310431'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310431</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='1.4589' x='-191.419' z='104.993'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310418'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310418</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.3707' x='-234.901' z='84.0739'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310419'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310419</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.5994' x='-245.319' z='184.966'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310422'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310422</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.6449' x='-254.543' z='178.802'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310414'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310414</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='10.0525' x='-226.97' z='134.328'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310415'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310415</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='1.9744' x='-226.97' z='137.055'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310416'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310416</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='11.2708' x='-210.121' z='94.2143'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310417'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310417</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='3.7482' x='-238.815' z='83.6893'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310411'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310411</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='10.359' x='-215.797' z='109.426'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310412'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310412</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='11.0022' x='-224.842' z='130.273'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g310413'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genbud_02_g310413</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='14.4888' x='-198.992' z='127.682'/>
+      </move>
+    </meshobj>
+    <meshobj name='bud_02_g3229013'>
+      <plugin>genmesh</plugin>
+      <priority>alpha</priority>
+      <params>
+        <factory>genbud_02_g3229013</factory>
+        <mixmode>
+          <add/>
+        </mixmode>
+      </params>
+      <zuse/>
+      <move>
+        <v y='7.6151' x='-195.815' z='177.855'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_ww_cc00'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_ww_cc00</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='24.5911' x='-377.532' z='-164.145'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g32kj3005'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g32kj3005</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-16.9275' x='-142.681' z='119.624'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36t0025'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36t0025</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='13.6222' x='-6.7628' z='-361.927'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt003'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt003</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='5.2267' x='-72.3497' z='-105.55'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt006'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt006</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='2.8759' x='15.0924' z='-48.5979'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt005'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt005</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-18.4515' x='-33.868' z='55.4831'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt009'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt009</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='14.3524' x='-103.007' z='-107.621'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt008'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt008</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-18.8938' x='-33.6458' z='55.2587'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_ww_cc8'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_ww_cc8</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='113.945' x='-481.976' z='-930.564'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt028'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt028</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-9.5447' x='-134.003' z='107.959'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt0-50'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt0-50</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-13.9842' x='-150.836' z='-326.925'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt0-51'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt0-51</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-10.1061' x='-41.9376' z='16.4011'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt0-52'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt0-52</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-9.4951' x='-41.9376' z='16.4011'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_ww_cc1'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_ww_cc1</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='60.1298' x='649.381' z='-830.699'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_ww_cc2'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_ww_cc2</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-18.2047' x='663.619' z='-257.624'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_ww_cc3'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_ww_cc3</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='11.9786' x='622.662' z='654.326'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_ww_cc4'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_ww_cc4</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='7.0566' x='633.893' z='443.083'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_ww_cc5'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_ww_cc5</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='44.8853' x='-450.562' z='699.205'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_ww_cc6'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_ww_cc6</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='121.393' x='-554.071' z='190.035'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt0016'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt0016</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-18.6011' x='77.157' z='-60.5933'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt0015'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt0015</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-18.7489' x='16.9422' z='-73.4444'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_ww_cc7'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_ww_cc7</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='97.7157' x='-762.941' z='-379.548'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt027'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt027</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+        <id>colldet</id>
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-9.5447' x='-134.003' z='131.964'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt011'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt011</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-18.716' x='-7.2326' z='112.567'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt012'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt012</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-18.5199' x='59.4053' z='-59.2976'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt014'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt014</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='13.824' x='-23.0616' z='-203.671'/>
+      </move>
+    </meshobj>
+    <meshobj name='guidao_g36tt015'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genguidao_g36tt015</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='-17.3478' x='26.35' z='-73.4624'/>
+      </move>
+    </meshobj>
+    <meshobj name='Cube'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>genCube</factory>
+        <mixmode>
+          <alpha/>
+        </mixmode>
+      </params>
+      <trimesh>
+
+        <id>shadows</id>
+      </trimesh>
+      <zuse/>
+      <noshadows/>
+      <move>
+        <v y='-8.3061' x='56.8025' z='-2.3768'/>
+      </move>
+    </meshobj>
+	
+	<meshobj name="sky">
+
+
+<plugin>genmesh</plugin>
+<params>
+
+
+<factory>skydome</factory>
+<material>ScatterSky?</material>
+<color red="0" green="0" blue="0" />
+
+
+</params>
+<zfill />
+<priority>sky</priority>
+<camera />
+<trimesh> <id>colldet</id> </trimesh>
+
+
+</meshobj>
+
+
+
+	
+<light name="sun">
+
+
+<center x="-200" y="260" z="0" />
+<radius>50000</radius>
+<color red="0.85903" green="0.80995" blue="0.80420"/>
+<type>directional</type> 
+
+
+</light>
+
+
+
+	
+  </sector>
+  <sequences/>
+  <start name='Camera'>
+    <sector>Scene</sector>
+    <position y='16.108' x='92.1804' z='-32.1088'/>
+    <up y='0.8953' x='-0.3307' z='0.2984'/>
+    <forward y='-0.4452' x='-0.6549' z='0.6107'/>
+  </start>
+</world>
